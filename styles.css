@@ -7,32 +7,34 @@
 
 body {
   font-family: Arial, sans-serif; 
-  background-color: #f4f4f4; 
-  color: #333;
+  background-color: #b4b3b3; 
+  color: #ffffff;
   line-height: 1.6;
 }
 
 .container {
-  width: 80%;
+  width: 80%; 
   margin: 0 auto;
   max-width: 1200px;
 }
 
 .header {
-  background-color: #333;
-  color: white;
+  background-color: 
+  
+  #707070;
+  color: rgb(255, 255, 255);
   padding: 20px 0;
   text-align: center;
 }
 
 .profile-photo {
   display: inline-block;
-  width: 150px; 
-  height: 150px;
+  width: 190px; 
+  height: 190px;
   overflow: hidden;
   border-radius: 50%;
   margin-bottom: 20px;
-  border: 2px solid white; 
+  border: 5px solid rgba(90, 65, 65, 0.89); 
 }
 
 .photo {
@@ -59,17 +61,17 @@ body {
 
 
 .about, .experience, .education, .skills, .reflection {
-  background-color: white;
+  background-color: rgb(80, 76, 76);
   padding: 20px;
   margin: 20px 0;
-  border: 1px solid #ddd; 
+  border: 10px solid #666666d0; 
 }
 
 .about h2, .experience h2, .education h2, .skills h2, .reflection h2 {
   font-size: 1.5rem;
   margin-bottom: 10px;
   text-decoration: underline; 
-  color: #333;
+  color: #f8f8f8;
 }
 
 .about p, .reflection p {
@@ -79,7 +81,7 @@ body {
 
 .job h3 {
   font-size: 1.2rem;
-  color: #007BFF; 
+  color: #000000; 
   margin-bottom: 10px;
 }
 
@@ -107,11 +109,6 @@ body {
   color: #007BFF;
 }
 
-.degree, .date {
-  font-size: 1rem;
-  margin: 5px 0;
-}
-
 
 .skills ul {
   list-style: none; 
@@ -124,15 +121,15 @@ body {
 
 
 .footer {
-  background-color: #333;
-  color: white;
+  background-color: #050505;
+  color: rgb(212, 206, 206);
   padding: 10px 0;
   text-align: center;
   margin-top: 20px;
 }
 
 .footer a {
-  color: #fff;
+  color: #ffffff;
   text-decoration: none;
   margin: 0 10px;
 }
@@ -140,3 +137,21 @@ body {
 .footer a:hover {
   text-decoration: underline;
 }
+
+a {
+  color: #474141; 
+  text-decoration: none; 
+}
+
+a:hover {
+  color: #e0cccc; 
+}
+
+a:active {
+  color: #e9dbdb; 
+}
+
+a:visited {
+  color: #ff0000; 
+}
+
