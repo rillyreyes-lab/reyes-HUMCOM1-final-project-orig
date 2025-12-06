@@ -6,7 +6,7 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #b4b3b3;
+  background-color: #38857e;
   color: #ffffff;
   line-height: 1.6;
 }
@@ -18,7 +18,7 @@ body {
 }
 
 .header {
-  background-color: #707070;
+  background-color: #07534d;
   color: #ffffff;
   padding: 20px 0;
   text-align: center;
@@ -30,7 +30,7 @@ body {
   margin: 0 auto 20px auto;
   border-radius: 50%;
   overflow: hidden;
-  border: 5px solid rgba(90, 65, 65, 0.89);
+  border: 5px solid rgba(1, 44, 41, 0.89);
 }
 
 .photo {
@@ -55,10 +55,10 @@ body {
 }
 
 section {
-  background-color: #504c4c;
+  background-color: #09756c;
   padding: 20px;
   margin: 20px 0;
-  border: 10px solid #666666d0;
+  border: 10px solid #4e9692d0;
 }
 
 section h2 {
@@ -97,14 +97,6 @@ section p {
   text-decoration: underline;
 }
 
-.experience a:active {
-  color: #420000;
-}
-
-.experience a:visited {
-  color: #520000;
-}
-
 .school h3 a {
   color: #ff0909;
   text-decoration: none;
@@ -125,10 +117,71 @@ section p {
 }
 
 .footer {
-  background-color: #050505;
+  background-color: #277481ad;
   color: #d4cece;
   padding: 10px 0;
   text-align: center;
   margin-top: 20px;
+}
+
+.about-flex {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.about-photo {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px;
+  overflow: hidden;
+  flex-shrink: 0;
+  border: 5px solid rgba(1, 44, 41, 0.89);
+}
+
+.about-photo img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.about-text {
+  flex: 1;
+}
+
+.experience-flex {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.experience-content {
+  flex: 1;
+}
+
+.about-photos {
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin-top: 20px;
+  flex-wrap: wrap;
+}
+
+.photo-box {
+  text-align: center;
+}
+
+.photo-box img {
+  width: 180px;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 10px;
+  border: 2px solid #333;
+}
+
+.photo-box p {
+  margin-top: 5px;
+  font-weight: bold;
+  color: #fff;
 }
 
